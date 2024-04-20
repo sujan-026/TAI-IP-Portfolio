@@ -1,0 +1,114 @@
+*{
+    font-family: Space Grotesk;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Old font */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+/* .main1{
+    background-color: #f5f3e9;
+} */
+
+.card {
+    background-color: #2A3541; /* Light grey background for the card */
+    padding-right: 10px 20px 20px 5%;
+    max-width: 1500px;
+    height: 300px;
+    color: black;
+}
+
+.text-container h2{
+    color: black;
+}
+
+.text-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.info{
+    padding: 10px, 10px, 5px, 10px;
+    font-size: 1.5em
+}
+
+.frontpage {
+    background-color: #28391D; /* Light grey background for the card */
+    max-width: 1500px;
+    height: 550px;
+    color: #FFEB85;
+}
+
+.frontpage h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    z-index: -2;
+}
+
+.frontpage h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.name-header {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.custom-shape-divider-bottom-1712666272 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1712666272 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 246px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1712666272 .shape-fill {
+    fill: #FFE770;
+}
+
+.spacer1{
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url("/images/layered-waves-down.svg");
+}
+
+.spacer2{
+    aspect-ratio: 2000/1000;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer2{
+    background-image: url("/images/stacked-waves-haikei.svg");
+}

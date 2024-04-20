@@ -1,0 +1,22 @@
+*{
+    
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 0px 10px 30px 10px; 
+}
+
+footer a i{
+    color: white;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
